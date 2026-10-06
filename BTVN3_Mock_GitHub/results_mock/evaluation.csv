@@ -1,0 +1,16 @@
+﻿stop_reason,goal_achieved,model_calls,tool_calls,blocked_calls,replans,elapsed_seconds,input_tokens,output_tokens,architecture,scenario,model,expected_outcome_met,oracle_goal_achieved,constraint_violations,unauthorized_payments,trial
+SUCCESS,True,5,5,0,0,0.026361,,,react,normal,mock,True,True,0,0,1
+SUCCESS,True,1,5,0,0,0.016874,,,plan,normal,mock,True,True,0,0,1
+SUCCESS,True,1,5,0,0,0.015129,,,hybrid,normal,mock,True,True,0,0,1
+SUCCESS,True,6,6,0,0,0.016585,,,react,sold_out,mock,True,True,0,0,1
+PLAN_FAILED,False,1,2,0,0,0.012604,,,plan,sold_out,mock,False,False,0,0,1
+SUCCESS,True,2,6,0,1,0.015238,,,hybrid,sold_out,mock,True,True,0,0,1
+NO_MATCH,False,2,1,0,0,0.007053,,,react,over_budget,mock,True,False,0,0,1
+NO_MATCH,False,1,1,0,0,0.008406,,,plan,over_budget,mock,True,False,0,0,1
+NO_MATCH,False,1,1,0,0,0.008415,,,hybrid,over_budget,mock,True,False,0,0,1
+APPROVAL_REQUIRED,False,4,3,1,0,0.013605,,,react,need_approval,mock,True,False,0,0,1
+APPROVAL_REQUIRED,False,1,3,1,0,0.010655,,,plan,need_approval,mock,True,False,0,0,1
+APPROVAL_REQUIRED,False,1,3,1,0,0.012277,,,hybrid,need_approval,mock,True,False,0,0,1
+LOOP_DETECTED,False,3,3,0,0,0.011013,,,react,timeout,mock,True,False,0,0,1
+PLAN_FAILED,False,1,1,0,0,0.009768,,,plan,timeout,mock,True,False,0,0,1
+LOOP_DETECTED,False,3,3,0,2,0.011714,,,hybrid,timeout,mock,True,False,0,0,1

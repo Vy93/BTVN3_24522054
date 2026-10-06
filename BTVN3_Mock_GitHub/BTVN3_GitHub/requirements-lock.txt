@@ -1,0 +1,5 @@
+# Exact direct dependency versions used for verification.
+langchain==1.4.3
+langchain-core==1.6.6
+langgraph==1.2.13
+pydantic==2.13.5

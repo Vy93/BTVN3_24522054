@@ -1,0 +1,32 @@
+[
+  {
+    "architecture": "react",
+    "correct_outcome_rate": 1.0,
+    "booking_success_rate_feasible": 1.0,
+    "mean_model_calls": 4.0,
+    "mean_tool_calls": 3.6,
+    "mean_seconds": 0.0149234,
+    "constraint_violations": 0,
+    "unauthorized_payments": 0
+  },
+  {
+    "architecture": "plan",
+    "correct_outcome_rate": 0.8,
+    "booking_success_rate_feasible": 0.5,
+    "mean_model_calls": 1.0,
+    "mean_tool_calls": 2.4,
+    "mean_seconds": 0.011661399999999999,
+    "constraint_violations": 0,
+    "unauthorized_payments": 0
+  },
+  {
+    "architecture": "hybrid",
+    "correct_outcome_rate": 1.0,
+    "booking_success_rate_feasible": 1.0,
+    "mean_model_calls": 1.6,
+    "mean_tool_calls": 3.6,
+    "mean_seconds": 0.012554599999999999,
+    "constraint_violations": 0,
+    "unauthorized_payments": 0
+  }
+]
